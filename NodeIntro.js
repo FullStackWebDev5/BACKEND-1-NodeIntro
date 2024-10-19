@@ -26,9 +26,7 @@
           import { sum, diff } from 'path
 
     - Types of modules
-      - Core/In-built modules: 
-        - Basic functionalities of Node.js
-        - Eg: http (HTTP), fs (FileSystem), etc
+      - Core/In-built modules: Basic functionalities of Node.js. Eg: http (HTTP), fs (FileSystem), etc
       - User-defined/ Local modules: Done by the developer to follow DRY principle
       - Third-party modules: External modules, Installed using npm (Node Package Manager)
 
