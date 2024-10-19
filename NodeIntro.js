@@ -1,5 +1,5 @@
 /*
-  # Common JS Export/Import Syntax
+  # CommonJS Export/Import Syntax
     - Export
       module.exports = { sum }
 
@@ -25,10 +25,17 @@
     server.listen(3000)
 
   -----------------------------------------
-  # Response methods
+  # HTTP Response methods
     - end(): Return any string/buffer data
     - setHeader(): Set the headers of the response
       - 'Content-Type': Set the content type of the response
         - application/json: JSON data
         - text/html: Text/HTML data
+
+    -----------------------------------------
+    # FileSystem methods
+      - readFileSync(): Read the content of a file synchronously
+        - path: Path to the file along with filename and extension
+        - options:
+          - encoding: utf8: UTF8 encoding
 */

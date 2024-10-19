@@ -1,3 +1,4 @@
+// # BOILERPLATE SYNTAX OF NODE SERVER
 // # Server returning string data
 // const http = require('http')
 
@@ -7,7 +8,7 @@
 
 // server.listen(3000)
 
-
+/* ----------------------------------------- */
 // # Server returning JSON data
 // const http = require('http')
 
@@ -62,6 +63,7 @@
 
 // server.listen(3000)
 
+/* ----------------------------------------- */
 // # Server returning HTML file
 // const http = require('http')
 // const fs = require('fs')
