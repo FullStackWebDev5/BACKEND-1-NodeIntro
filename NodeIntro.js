@@ -26,7 +26,7 @@
           import { sum, diff } from 'path
 
     - Types of modules
-      - Core/In-built modules: Basic functionalities of Node.js. Eg: http (HTTP), fs (FileSystem), etc
+      - Core/In-built modules: Basic functionalities of Node.js. Eg: http (HTTP), fs (FileSystem), readline, path etc
       - User-defined/ Local modules: Done by the developer to follow DRY principle
       - Third-party modules: External modules, Installed using npm (Node Package Manager)
 
@@ -67,13 +67,6 @@
       - 'Content-Type': Set the content type of the response
         - application/json: JSON data
         - text/html: Text/HTML data
-
-    -----------------------------------------
-    # FileSystem methods
-      - readFileSync(): Read the content of a file synchronously
-        - path: Path to the file along with filename and extension
-        - options:
-          - encoding: utf8: UTF8 encoding
 
     -----------------------------------------
     # Third-party packages
