@@ -46,6 +46,7 @@
       - npm install package-name: Install a package
         - Shorthand command: npm i package-name
         - For existing projects: 'npm install' will install all packages under dependencies field
+        - -D flag: Dev dependencies
 
   -----------------------------------------
   # Node.js boilerplate
@@ -71,4 +72,6 @@
     -----------------------------------------
     # Third-party packages
       - nodemon: Nodemon - Provides you with a command to run your server and apply changes which saving the file (Live server)
+      - axios: Handle API requests
+      - dotenv: Load environment variables from .env file
 */
